@@ -53,14 +53,6 @@ header{
     align-items: center;
 }
 
-.visually-hidden {
-    margin: -1px;
-    border: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 .header-navigation {
     display: flex;
@@ -147,6 +139,8 @@ section {
 
 .hero {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -183,6 +177,23 @@ section {
     background-color: #404BBF;
 }
 
+.features{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .features-list {
     display: flex;
@@ -214,6 +225,8 @@ section {
 
 .team {
     background-color: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 
@@ -266,6 +279,11 @@ section {
     margin-bottom: 32px;
 }
 
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -286,7 +304,12 @@ section {
 }
 
 .portfolio-item {
-
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .container-portfolio-list {
@@ -305,12 +328,6 @@ section {
     margin-bottom: 8px;
 }
 
-.portfolio-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
 
 .footer {
     background: #2e2f42;
